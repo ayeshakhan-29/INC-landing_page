@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         clash: ["var(--font-clash-display)"],
+        poppins: ["var(--font-poppins)"],
       },
     },
   },
