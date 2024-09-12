@@ -33,7 +33,7 @@ export default function RootLayout({
       <body
         className={`${clashDisplay.variable} ${poppins.variable} antialiased`}
       >
-        {children}
+        <main className="flex-grow h-full">{children}</main>
         <Footer />
       </body>
     </html>
