@@ -1,8 +1,20 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
+import { useRouter } from "next/navigation";
 import ImageGridLarge from "../join-waitlist/image-grid-large";
 import Image from "next/image";
 
 const Thanks = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      router.push("/");
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, [router]);
+
   return (
     <div className="flex font-clash w-full min-h-screen">
       <div className="flex flex-col items-center justify-center border w-full xl:w-1/2">
@@ -17,7 +29,7 @@ const Thanks = () => {
           Thank you!
         </p>
         <p className="text-xl xl:text-[25px] text-center px-12 xl:px-32 text-[#101623] mt-2">
-          We will send you a link to download The Incc app when avail
+          We will send you a link to download The Incc app when available
         </p>
       </div>
       <div className="w-1/2 border border-red-500 xl:block hidden">
