@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="flex md:flex-row flex-col w-full px-3 md:px-20 items-center justify-between font-poppins text-base md:text-xl">
+    <footer className="flex lg:flex-row flex-col w-full px-3 py-5 md:px-20 items-center justify-between font-poppins text-base md:text-xl">
       <div className="row-start-3 flex gap-3 md:gap-6 flex-wrap">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
