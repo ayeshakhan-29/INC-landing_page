@@ -2,8 +2,8 @@ import React from "react";
 
 const WaitlistForm = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center xl:justify-center bg-white px-4 sm:px-0 py-4 font-clash">
-      <div className="max-w-xl w-full">
+    <div className="min-h-screen flex flex-col items-center xl:justify-center bg-white px-4 sm:px-0 nd:py-10 py-4 font-clash">
+      <div className="xl:max-w-xl max-w-3xl w-full">
         <h1 className="xl:text-[100px] md:text-7xl text-5xl font-normal font-clash text-left">
           Join waitlist
         </h1>
