@@ -4,11 +4,9 @@ const PrivacyPolicy = () => {
   const privacyPolicyData = [
     {
       title: "OVERVIEW",
-      content: `Your privacy is important to us. This Privacy Policy governs how the website collects, uses, maintains and discloses its user (each, a “User”) information. The purpose of this Privacy Policy is to assist you in understanding the purpose for which we collect, use, disclose and process the personal data you have provided to us or we collect in accordance with the applicable International Data Protection Laws.
- 
-The use of any terms such as, "We", "Our", "Us" "it's" etc., in this "Privacy Policy" will be deemed to be the representation of "The Incc". Also, the use of any term such as, "You", "Your", "They", "Their" etc. will deem to be the representation of users of "The Incc".
- 
-Please read this Privacy Policy carefully before using this website. If you do not agree to this Privacy Policy, please do not use this website. By accessing, browsing and using this Site, you acknowledge that you have read and understood the Privacy Policy.`,
+      content: `Your privacy is important to us. This Privacy Policy governs how the website collects, uses, maintains and discloses its user (each, a “User”) information. The purpose of this Privacy Policy is to assist you in understanding the purpose for which we collect, use, disclose and process the personal data you have provided to us or we collect in accordance with the applicable International Data Protection Laws.<br/><br/>
+      The use of any terms such as, "We", "Our", "Us" "it's" etc., in this "Privacy Policy" will be deemed to be the representation of "The Incc". Also, the use of any term such as, "You", "Your", "They", "Their" etc. will deem to be the representation of users of "The Incc".<br/><br/>
+      Please read this Privacy Policy carefully before using this website. If you do not agree to this Privacy Policy, please do not use this website. By accessing, browsing and using this Site, you acknowledge that you have read and understood the Privacy Policy.`,
     },
     {
       title: "WHAT INFORMATION DO WE COLLECT?",
@@ -18,21 +16,21 @@ Please read this Privacy Policy carefully before using this website. If you do n
 </p>
 
 <ol style="list-style-type: lower-roman; margin-left: 20px;">
-  <li>Personal Information: Name, email address, username, password, and any other information you choose to provide.</li>
-  <li>Profile Information: Profile picture, bio, and other details you provide.</li>
-  <li>Content: Posts, comments, photos, videos, and other content you upload or share on the Platform.</li>
-  <li>Communications: When you contact us or communicate with other users on the Platform.</li>
-  <li>Any other information you choose to provide while using our website that identifies or can be reasonably associated with you.</li>
+  <li>  Personal Information: Name, email address, username, password, and any other information you choose to provide.</li>
+  <li>  Profile Information: Profile picture, bio, and other details you provide.</li>
+  <li>  Content: Posts, comments, photos, videos, and other content you upload or share on the Platform.</li>
+  <li>  Communications: When you contact us or communicate with other users on the Platform.</li>
+  <li>  Any other information you choose to provide while using our website that identifies or can be reasonably associated with you.</li>
 </ol>
-
+<br/>
 <p>
   We also collect the information when you process your payment if you make purchases such as:
 </p>
 
 <ol style="list-style-type: lower-roman; margin-left: 20px;">
-  <li>Billing information, such as name, address, and telephone number;</li>
-  <li>Financial information, such as credit card information collected by our payment processors on our behalf;</li>
-  <li>Information about your chosen service or product.</li>
+  <li>  Billing information, such as name, address, and telephone number;</li>
+  <li>  Financial information, such as credit card information collected by our payment processors on our behalf;</li>
+  <li>  Information about your chosen service or product.</li>
 </ol><br/>
 
 <p>
@@ -53,10 +51,10 @@ Please read this Privacy Policy carefully before using this website. If you do n
 </p><br/>
 
 <ol style="list-style-type: lower-roman; margin-left: 20px;">
-  <li>Log data and Device information: We automatically collect log data and device information when you access and use our website. That information includes, among other things: Internet protocol (IP) addresses, browser type, Internet service provider (ISP), referring/exit pages, operating system, date/time stamp, and/or clickstream data.</li>
-  <li>Tracking technologies and Cookies: We use cookies, beacons, tags, scripts, and other similar technologies, such as CI codes (click tracking), ISC (source tracking), and ITC (item tracking codes). We also automatically collect information about the device's operating system, phone model, device ID, and customer number.</li>
-  <li>Usage information: We use a tool called "Google Analytics" to collect information about your interactions with Our website (what pages you visit, such as the pages or content you view, your searches for Listings, bookings you have made, and other actions). Consequently, Google, Inc. plants a permanent cookie on your web browser to identify you as a unique user the next time you visit this Site. For more information, please visit Google.</li>
-  <li>Geo-location data: We collect information about your approximate location as determined by data such as your IP address to offer you an improved user experience and comply with applicable legal requirements, such as taxes, pricing, etc. Such data may be collected only when you access our website using your device.</li>
+  <li>  Log data and Device information: We automatically collect log data and device information when you access and use our website. That information includes, among other things: Internet protocol (IP) addresses, browser type, Internet service provider (ISP), referring/exit pages, operating system, date/time stamp, and/or clickstream data.</li>
+  <li>  Tracking technologies and Cookies: We use cookies, beacons, tags, scripts, and other similar technologies, such as CI codes (click tracking), ISC (source tracking), and ITC (item tracking codes). We also automatically collect information about the device's operating system, phone model, device ID, and customer number.</li>
+  <li>  Usage information: We use a tool called "Google Analytics" to collect information about your interactions with Our website (what pages you visit, such as the pages or content you view, your searches for Listings, bookings you have made, and other actions). Consequently, Google, Inc. plants a permanent cookie on your web browser to identify you as a unique user the next time you visit this Site. For more information, please visit Google.</li>
+  <li>  Geo-location data: We collect information about your approximate location as determined by data such as your IP address to offer you an improved user experience and comply with applicable legal requirements, such as taxes, pricing, etc. Such data may be collected only when you access our website using your device.</li>
 </ol><br/>
 
 <p>
@@ -69,40 +67,40 @@ Please read this Privacy Policy carefully before using this website. If you do n
       title: "HOW WE USE YOUR INFORMATION?",
       content: `Our website works with a variety of third parties and service providers to help provide you with our services and we may share personal information with them to support our efforts. We may also share this information in the following circumstances:<br/>
  
-i.          We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt-out of our marketing emails at any time (see the "WHAT ARE YOUR PRIVACY RIGHTS" below).<br/>
-ii.        We may use your personal information to send you product, service, and new feature information and/or information about changes to our terms, conditions, and policies.<br/>
-iii.      We may use your information to develop and display content and advertising (and work with third parties who do so) tailored to your interests and/or location and to measure its effectiveness.<br/>
-iv.      We may use your information to request feedback and to contact you about your use of our Site.<br/>
-v.        We may use your information as part of our efforts to keep our Site safe and secure (for example, for fraud monitoring and prevention).<br/>
-vi.      We may use your information to enable user-to-user communications with each user's consent.
-vii.    To enforce our terms, conditions and policies for Business Purposes, Legal Reasons and Contractual.
-viii.  If we receive a subpoena or other legal request, we may need to inspect the data we hold to determine how to respond.
-ix.      We may use your information for the purposes of managing our account and keeping it in working order.             
-x.        We may use your information to provide you with the requested service.
-xi.      We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Site.
-xii.    We may use your information for other Business Purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Site, products, marketing, and your experience. We may use and store this information in aggregated and anonymized form so that it is not associated with individual end users and does not include personal information. We will not use identifiable personal information without your consent.
-xiii.  Otherwise, we may share your Personal Information with a company that acquires our business, whether through merger, acquisition, bankruptcy, dissolution, reorganization, or other similar transaction or proceeding. If it happens, we will inform the same about it.
- 
-Our website will ask for your consent before sharing your personal information with third parties for purposes other than those described herein.
-Our website is responsible for all onward transfers of personal information to third parties in accordance with the U.S. Privacy Sheild Framework.`,
+i.  We and/or our third-party marketing partners may use the personal information you send to us for our marketing purposes, if this is in accordance with your marketing preferences. You can opt-out of our marketing emails at any time (see the "WHAT ARE YOUR PRIVACY RIGHTS" below).<br/>
+ii.  We may use your personal information to send you product, service, and new feature information and/or information about changes to our terms, conditions, and policies.<br/>
+iii.  We may use your information to develop and display content and advertising (and work with third parties who do so) tailored to your interests and/or location and to measure its effectiveness.<br/>
+iv.  We may use your information to request feedback and to contact you about your use of our Site.<br/>
+v.  We may use your information as part of our efforts to keep our Site safe and secure (for example, for fraud monitoring and prevention).<br/>
+vi.  We may use your information to enable user-to-user communications with each user's consent.<br/>
+vii.  To enforce our terms, conditions and policies for Business Purposes, Legal Reasons and Contractual.<br/>
+viii.  If we receive a subpoena or other legal request, we may need to inspect the data we hold to determine how to respond.<br/>
+ix.  We may use your information for the purposes of managing our account and keeping it in working order.<br/>
+x.  We may use your information to provide you with the requested service.<br/>
+xi.  We may use your information to respond to your inquiries and solve any potential issues you might have with the use of our Site.<br/>
+xii.  We may use your information for other Business Purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Site, products, marketing, and your experience. We may use and store this information in aggregated and anonymized form so that it is not associated with individual end users and does not include personal information. We will not use identifiable personal information without your consent.<br/>
+xiii.   Otherwise, we may share your Personal Information with a company that acquires our business, whether through merger, acquisition, bankruptcy, dissolution, reorganization, or other similar transaction or proceeding. If it happens, we will inform the same about it.<br/>
+ <br/>
+Our website will ask for your consent before sharing your personal information with third parties for purposes other than those described herein.<br/>
+Our website is responsible for all onward transfers of personal information to third parties in accordance with the U.S. Privacy Sheild Framework.<br/>`,
     },
     {
       title: "CROSS BORDER DATA TRANSFER",
       content: `
-Please be aware that your personal information may be transferred to and maintained on servers or databases located outside your state, province, or country. Such transfer shall be subjected to laws and regulations of California Consumer Privacy Act (CCPA), California Online Privacy Protection Act (CalOPPA), General Data Protection Regulation (GDPR) and other applicable laws of your jurisdiction.
- 
-We may share personal information and usage data with businesses controlling, controlled by, or under common control with us. If we are merged, acquired, or sold, or in the event of a transfer of some or all of our assets, then in such case customer information will of course be one of the transferred assets. In such case, you will be notified if their personal information is provided to the new corporate entity or asset purchaser.
- 
-Your personal information may be transferred to and processed in countries outside of your jurisdiction where data protection laws may be different. We will take appropriate measures to ensure the security of your information during such transfers.`,
+Please be aware that your personal information may be transferred to and maintained on servers or databases located outside your state, province, or country. Such transfer shall be subjected to laws and regulations of California Consumer Privacy Act (CCPA), California Online Privacy Protection Act (CalOPPA), General Data Protection Regulation (GDPR) and other applicable laws of your jurisdiction.<br/><br/>
+
+We may share personal information and usage data with businesses controlling, controlled by, or under common control with us. If we are merged, acquired, or sold, or in the event of a transfer of some or all of our assets, then in such case customer information will of course be one of the transferred assets. In such case, you will be notified if their personal information is provided to the new corporate entity or asset purchaser.<br/><br/>
+
+Your personal information may be transferred to and processed in countries outside of your jurisdiction where data protection laws may be different. We will take appropriate measures to ensure the security of your information during such transfers.<br/>`,
     },
     {
       title: "SPECIFIC PRIVACY RIGHTS-",
-      content: `A.    European Residents-
+      content: `A.    European Residents-<br/><br/>
 
 If you are a European resident, you have the right to access personal information we hold about you and to ask that your personal information be corrected, updated, or deleted. If you would like to exercise this right, please contact us through the contact information below. 
 Additionally, if you are a European resident, note that we are processing your information in order to fulfill contracts we might have with you (for example if you place an order), or otherwise to pursue our legitimate business interests listed above. Additionally, please note that your information will be transferred outside of Europe, including to Canada, Africa and the United States.
-
-B.    California Residents-
+<br/><br/>
+B.    California Residents-<br/><br/>
 
 California Civil Code Section 1798.83, also known as the “Shine The Light” law, permits our users who are California residents to request and obtain from us, once a year and free of charge, information about categories of personal information (if any) we disclosed to third parties for direct marketing purposes and the names and addresses of all third parties with which we shared personal information in the immediately preceding calendar year. If you are a California resident and would like to make such a request, please submit your request in writing to us using the contact information provided below.
 If you are under 18 years of age, reside in California, and have a registered account with the Site, you have the right to request removal of unwanted data that you publicly post on the Site. To request removal of such data, please contact us using the contact information provided below, and include the email address associated with your account and a statement that you reside in California. We will make sure the data is not publicly displayed on the Site, but please be aware that the data may not be completely or comprehensively removed from our systems.`,
@@ -113,24 +111,23 @@ If you are under 18 years of age, reside in California, and have a registered ac
     },
     {
       title: "THIRD PARTY SHARING",
-      content: `We may share your personal information with third-party service providers who assist us in delivering our Services. We do not sell or rent your personal information to third parties for their marketing purposes;
-We also use Google Analytics to help us understand how our customers use the Site–you can read more about how Google uses your Personal Information here: https://www.google.com/intl/en/policies/privacy/. You can also opt-out of Google Analytics here: https://tools.google.com/dlpage/gaoptout;
-We may use your personal information to exercise our legal rights or to defend against any legal claims;
-We may provide your personal information on the request from any governmental authorities;
+      content: `We may share your personal information with third-party service providers who assist us in delivering our Services. We do not sell or rent your personal information to third parties for their marketing purposes;<br/>
+We also use Google Analytics to help us understand how our customers use the Site–you can read more about how Google uses your Personal Information here: https://www.google.com/intl/en/policies/privacy/. You can also opt-out of Google Analytics here: https://tools.google.com/dlpage/gaoptout;<br/>
+We may use your personal information to exercise our legal rights or to defend against any legal claims;<br/>
+We may provide your personal information on the request from any governmental authorities;<br/>
 We May use your information it is necessary to share information in order to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of “The Incc’s” terms of use, or as otherwise required by law.`,
     },
     {
       title: "COOKIES",
-      content: `Our websites use cookies and similar technologies (together referred to as "cookies", unless otherwise stated) to provide you with an efficient experience in using our Website.
+      content: `Our websites use cookies and similar technologies (together referred to as "cookies", unless otherwise stated) to provide you with an efficient experience in using our Website.<br/><br/>
  
 A cookie is a small data file that is placed on your computer or mobile device by your web browser. Cookies are not used to run programs or deliver viruses to your computer. One of the primary purposes of cookies is to store your preferences and other information on your computer in order to save you time by eliminating the need to repeatedly enter the same information and to display your personalized content and appropriate advertising on your later visits to these sites.
- 
-We use cookies for a variety of purposes and to enhance your online experience, for example, to identify your device, distinguish you from other visitors, record your IP address and understand your use of our website to determine the usefulness of our website information and to see how effective our navigational structure is in helping you reach that information. We also use cookies to identify the name of the website from which you linked to the Website of our brands. We do not otherwise track any information about your use of other websites.`,
+ <br/><br/>
+We use cookies for a variety of purposes and to enhance your online experience, for example, to identify your device, distinguish you from other visitors, record your IP address and understand your use of our website to determine the usefulness of our website information and to see how effective our navigational structure is in helping you reach that information. We also use cookies to identify the name of the website from which you linked to the Website of our brands. We do not otherwise track any information about your use of other websites.<br/>`,
     },
     {
       title: "ACCESSING AND UPDATING INFORMATION",
-      content: `All users and customers of ours may access, update, or delete their personal information at any time by logging into their account settings.
- 
+      content: `All users and customers of ours may access, update, or delete their personal information at any time by logging into their account settings.<br/><br/>
 We can also provide information upon request as to what personal data is stored about you. In addition, we will correct or erase personal data at your request, with the expectation of data retained for legal obligations. To learn more or to make any of the request described above, email us at (add URL).`,
     },
     {
@@ -150,18 +147,17 @@ We can also provide information upon request as to what personal data is stored 
       content: `<p>
   You may decline to submit information through our website, in which case we may not be able to provide certain services to you.
   You may also control the types of notifications and communications we send, limit the information shared within our Platform about you, etc.
-  You have certain rights under existing data protection legislation including the right to request a copy of the personal information we hold about you if you request it from us in writing. <br /><br />
-  In particular, you can exercise the following rights in accordance with this privacy policy:<br /><br />
+  You have certain rights under existing data protection legislation including the right to request a copy of the personal information we hold about you if you request it from us in writing.In particular, you can exercise the following rights in accordance with this privacy policy:<br /><br />
 </p>
 
 <ul class="list-disc ml-5">
-  <li>Right to access: Users have the right to request copies of your personal information from us;</li>
-  <li>Right to correct: Users have the right to have your personal information rectified if it is inaccurate or incomplete;</li>
-  <li>Right to erase: Users have the right to request that we delete or remove your personal information from our systems;</li>
-  <li>Right to withdraw: Users have the right to withdraw consent where they have previously given their consent to the processing of their Personal Data;</li>
-  <li>Right to restrict: The right to “block” us from using your personal information or limit the way in which we can use it;</li>
-  <li>Right to object: Users have the right to object to our use of your personal information, including where we use it for our legitimate interests or where we use your personal information to carry out profiling to inform our market research and customer demographics;</li>
-  <li>Lodge a complaint: Users have the right to bring a claim before their competent data protection authority.</li>
+  <li>  Right to access: Users have the right to request copies of your personal information from us;</li>
+  <li>  Right to correct: Users have the right to have your personal information rectified if it is inaccurate or incomplete;</li>
+  <li>  Right to erase: Users have the right to request that we delete or remove your personal information from our systems;</li>
+  <li>  Right to withdraw: Users have the right to withdraw consent where they have previously given their consent to the processing of their Personal Data;</li>
+  <li>  Right to restrict: The right to “block” us from using your personal information or limit the way in which we can use it;</li>
+  <li>  Right to object: Users have the right to object to our use of your personal information, including where we use it for our legitimate interests or where we use your personal information to carry out profiling to inform our market research and customer demographics;</li>
+  <li>  Lodge a complaint: Users have the right to bring a claim before their competent data protection authority.</li>
 </ul>
 <br />
 
@@ -179,7 +175,7 @@ We can also provide information upon request as to what personal data is stored 
     },
     {
       title: "CONTACT US",
-      content: `<p>If you have questions or comments about this policy, you may email us at <a href="mailto:[add email here]">(add URL)</a>,<br />or by post to:<br /><br />
+      content: `<p>If you have questions or comments about this policy, you may email us at <a href="mailto:[add email here]">(add URL)</a>,or by post to:<br /><br />
 (office Address)</p>
 `,
     },
@@ -191,9 +187,9 @@ We can also provide information upon request as to what personal data is stored 
         <h1 className="text-4xl md:text-5xl lg:text-[70px] text-[#101623] uppercase">
           Privacy Policy
         </h1>
-        <div className="flex h-[1px] w-60 md:w-76 bg-black"></div>
+        <div className="flex h-[1px] w-40 md:w-60 lg::w-76 bg-black"></div>
 
-        <p className="md:text-lg text-base text-[#101623]">
+        <p className="text-lg text-[#101623]">
           Welcome to the website of THE INCCUBATOR ("https://inccubator.com/"),
           also referred to as THE INCC within the context of this agreement.
         </p>
@@ -203,11 +199,11 @@ We can also provide information upon request as to what personal data is stored 
       <div className="mt-12 text-[#101623] space-y-10">
         {privacyPolicyData.map((privacyPolicy, index) => (
           <div key={index}>
-            <h2 className="lg:text-lg md:text-2xl text-xl uppercase">
-              {index + 1}. {privacyPolicy.title}
+            <h2 className="lg:text-[30px] md:text-2xl text-xl uppercase">
+              {index + 1}.  {privacyPolicy.title}
             </h2>
             <p
-              className="mt-3 lg:mt-8 leading-7 text-base md:text-lg"
+              className="mt-3 lg:mt-8 leading-7 text-lg"
               dangerouslySetInnerHTML={{ __html: privacyPolicy.content }}
             ></p>
           </div>
