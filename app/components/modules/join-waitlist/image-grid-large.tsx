@@ -78,7 +78,7 @@ const ImageGridLarge = () => {
             </div>
           ))}
         </div>
-        <div className="flex flex-col  gap-10">
+        <div className="flex flex-col gap-10">
           <div
             className={`relative rounded-full w-[115px] transition-all duration-300 ease-in-out ${
               hoveredIndex3 === null ? "h-[300px]" : "h-[115px]"
