@@ -32,8 +32,8 @@ const JoinWaitlist = () => {
   };
 
   return (
-    <div className="flex w-full justify-center xl:justify-between lg:px-4 xl:my-12 my-4 xl:px-6 2xl:px-28">
-      <div className="border-red-900 lg:w-1/2">
+    <div className="flex w-full justify-center items-center xl:justify-between xl:px-20 lg:px-6 my-4 2xl:px-28">
+      <div className="lg:w-1/2">
         <div
           className={`transition-opacity duration-700 ${
             isSubmitting || isSubmitted ? "opacity-0" : "opacity-100"
@@ -42,7 +42,7 @@ const JoinWaitlist = () => {
           {!isSubmitted && <WaitlistForm onSubmit={handleSubmit} />}
         </div>
         <div
-          className={`transition-opacity duration-700 border ${
+          className={`transition-opacity duration-700 ${
             isSubmitted ? "opacity-100" : "opacity-0"
           }`}
         >

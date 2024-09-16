@@ -22,7 +22,7 @@ const WaitlistForm: React.FC<any> = ({ onSubmit }) => {
   };
 
   return (
-    <div className="flex flex-col items-center xl:justify-center bg-white md:py-10 py-4 font-clash">
+    <div className="flex flex-col items-center justify-center bg-white md:py-10 py-4 font-clash">
       <div className="w-full">
         <h1 className="xl:text-[100px] md:text-7xl text-5xl font-normal font-clash text-left">
           Join waitlist

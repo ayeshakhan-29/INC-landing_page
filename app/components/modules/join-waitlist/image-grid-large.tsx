@@ -9,11 +9,11 @@ const ImageGridLarge = () => {
   const [hoveredIndex4, setHoveredIndex4] = useState<any>(null);
 
   return (
-    <div className="lg:flex flex-wrap items-center justify-center w-full h-[700px] my-10 hidden">
-      <div className="flex gap-5 ">
+    <div className="lg:flex flex-wrap items-center justify-center w-full h-[700px] hidden">
+      <div className="flex gap-5">
         <div className="flex flex-col gap-10">
           <div
-            className={`relative rounded-full w-[115px] transition-all duration-300 ease-in-out ${
+            className={`relative rounded-full lg:[80px] xl:w-[115px] transition-all duration-300 ease-in-out ${
               hoveredIndex === null ? "h-[300px]" : "h-[115px]"
             }`}
           >
@@ -47,7 +47,7 @@ const ImageGridLarge = () => {
 
         <div className="flex flex-col relative top-28 gap-10">
           <div
-            className={`relative rounded-full w-[115px] transition-all duration-300 ease-in-out ${
+            className={`relative rounded-full lg:[80px] xl:w-[115px] transition-all duration-300 ease-in-out ${
               hoveredIndex2 === null ? "h-[300px]" : "h-[115px]"
             }`}
           >
@@ -80,7 +80,7 @@ const ImageGridLarge = () => {
         </div>
         <div className="flex flex-col gap-10">
           <div
-            className={`relative rounded-full w-[115px] transition-all duration-300 ease-in-out ${
+            className={`relative rounded-full lg:[80px] xl:w-[115px] transition-all duration-300 ease-in-out ${
               hoveredIndex3 === null ? "h-[300px]" : "h-[115px]"
             }`}
           >
@@ -113,7 +113,7 @@ const ImageGridLarge = () => {
         </div>
         <div className="flex flex-col relative top-28 gap-10">
           <div
-            className={`relative rounded-full w-[115px] transition-all duration-300 ease-in-out ${
+            className={`relative rounded-full lg:[80px] xl:w-[115px] transition-all duration-300 ease-in-out ${
               hoveredIndex4 === null ? "h-[300px]" : "h-[115px]"
             }`}
           >
