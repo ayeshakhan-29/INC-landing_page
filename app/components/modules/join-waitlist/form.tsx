@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 
 const WaitlistForm: React.FC<any> = ({ onSubmit }) => {
@@ -9,21 +9,21 @@ const WaitlistForm: React.FC<any> = ({ onSubmit }) => {
     phoneNumber: "",
   });
 
-  const handleChange = (e:any) => {
+  const handleChange = (e: any) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
     });
   };
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault();
-    onSubmit(formData); // Trigger the submit in the parent component
+    onSubmit(formData);
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center xl:justify-center bg-white px-4 sm:px-0 nd:py-10 py-4 font-clash">
-      <div className="xl:max-w-xl max-w-3xl w-full">
+    <div className="flex flex-col items-center xl:justify-center bg-white md:py-10 py-4 font-clash">
+      <div className="w-full">
         <h1 className="xl:text-[100px] md:text-7xl text-5xl font-normal font-clash text-left">
           Join waitlist
         </h1>
@@ -34,7 +34,10 @@ const WaitlistForm: React.FC<any> = ({ onSubmit }) => {
         {/* Form */}
         <form onSubmit={handleSubmit} className="mt-10 space-y-8 font-clash">
           <div className="flex flex-col">
-            <label htmlFor="firstName" className="text-[30px] sm:text-xl text-[#101623]">
+            <label
+              htmlFor="firstName"
+              className="text-[30px] sm:text-xl text-[#101623]"
+            >
               First Name
             </label>
             <input
@@ -49,7 +52,10 @@ const WaitlistForm: React.FC<any> = ({ onSubmit }) => {
           </div>
 
           <div className="flex flex-col">
-            <label htmlFor="lastName" className="text-[30px] sm:text-xl text-[#101623]">
+            <label
+              htmlFor="lastName"
+              className="text-[30px] sm:text-xl text-[#101623]"
+            >
               Last Name
             </label>
             <input
@@ -64,7 +70,10 @@ const WaitlistForm: React.FC<any> = ({ onSubmit }) => {
           </div>
 
           <div className="flex flex-col">
-            <label htmlFor="email" className="text-[30px] sm:text-xl text-[#101623]">
+            <label
+              htmlFor="email"
+              className="text-[30px] sm:text-xl text-[#101623]"
+            >
               Email
             </label>
             <input
@@ -79,7 +88,10 @@ const WaitlistForm: React.FC<any> = ({ onSubmit }) => {
           </div>
 
           <div className="flex flex-col">
-            <label htmlFor="phoneNumber" className="text-[30px] sm:text-xl text-[#101623]">
+            <label
+              htmlFor="phoneNumber"
+              className="text-[30px] sm:text-xl text-[#101623]"
+            >
               Phone Number
             </label>
             <input
