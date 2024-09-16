@@ -1,6 +1,26 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 
-const WaitlistForm = () => {
+const WaitlistForm: React.FC<any> = ({ onSubmit }) => {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phoneNumber: "",
+  });
+
+  const handleChange = (e:any) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e:any) => {
+    e.preventDefault();
+    onSubmit(formData); // Trigger the submit in the parent component
+  };
+
   return (
     <div className="min-h-screen flex flex-col items-center xl:justify-center bg-white px-4 sm:px-0 nd:py-10 py-4 font-clash">
       <div className="xl:max-w-xl max-w-3xl w-full">
@@ -12,28 +32,24 @@ const WaitlistForm = () => {
         </p>
 
         {/* Form */}
-        <form className="mt-10 space-y-8 font-clash">
+        <form onSubmit={handleSubmit} className="mt-10 space-y-8 font-clash">
           <div className="flex flex-col">
-            <label
-              htmlFor="firstName"
-              className="text-[30px] sm:text-xl text-[#101623]"
-            >
+            <label htmlFor="firstName" className="text-[30px] sm:text-xl text-[#101623]">
               First Name
             </label>
             <input
               type="text"
               id="firstName"
               name="firstName"
-              placeholder="Jame"
+              placeholder="James"
+              onChange={handleChange}
+              value={formData.firstName}
               className="border-b border-gray-400 focus:outline-none focus:border-gray-800 p-2 text-lg sm:text-xl placeholder:text-black placeholder:text-[16px]"
             />
           </div>
 
           <div className="flex flex-col">
-            <label
-              htmlFor="lastName"
-              className="text-[30px] sm:text-xl text-[#101623]"
-            >
+            <label htmlFor="lastName" className="text-[30px] sm:text-xl text-[#101623]">
               Last Name
             </label>
             <input
@@ -41,15 +57,14 @@ const WaitlistForm = () => {
               id="lastName"
               name="lastName"
               placeholder="Smith"
+              onChange={handleChange}
+              value={formData.lastName}
               className="border-b border-gray-400 focus:outline-none focus:border-gray-800 p-2 text-lg sm:text-xl placeholder:text-black placeholder:text-[16px]"
             />
           </div>
 
           <div className="flex flex-col">
-            <label
-              htmlFor="email"
-              className="text-[30px] sm:text-xl text-[#101623]"
-            >
+            <label htmlFor="email" className="text-[30px] sm:text-xl text-[#101623]">
               Email
             </label>
             <input
@@ -57,15 +72,14 @@ const WaitlistForm = () => {
               id="email"
               name="email"
               placeholder="youremail@gmail.com"
+              onChange={handleChange}
+              value={formData.email}
               className="border-b border-gray-400 focus:outline-none focus:border-gray-800 p-2 text-lg sm:text-xl placeholder:text-black placeholder:text-[16px]"
             />
           </div>
 
           <div className="flex flex-col">
-            <label
-              htmlFor="phoneNumber"
-              className="text-[30px] sm:text-xl text-[#101623]"
-            >
+            <label htmlFor="phoneNumber" className="text-[30px] sm:text-xl text-[#101623]">
               Phone Number
             </label>
             <input
@@ -73,6 +87,8 @@ const WaitlistForm = () => {
               id="phoneNumber"
               name="phoneNumber"
               placeholder="(123) 456-7890"
+              onChange={handleChange}
+              value={formData.phoneNumber}
               className="border-b border-gray-400 focus:outline-none focus:border-gray-800 p-2 text-lg sm:text-xl placeholder:text-black placeholder:text-[16px]"
             />
           </div>
@@ -81,7 +97,7 @@ const WaitlistForm = () => {
             <div className="flex items-start gap-2">
               <p className="text-base">
                 By providing my phone number, I hereby agree and accept the
-                Terms of Service and Privacy Policy in use of The Incc app
+                Terms of Service and Privacy Policy in use of The Incc app.
               </p>
             </div>
 
