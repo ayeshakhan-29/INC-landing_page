@@ -9,7 +9,7 @@ const ImageGridLarge = () => {
   const [hoveredIndex4, setHoveredIndex4] = useState<any>(null);
 
   return (
-    <div className="lg:flex flex-wrap justify-center w-[334px] h-[700px] my-10 lg:mr-10 xl:mr-20 hidden">
+    <div className="lg:flex flex-wrap items-center justify-center w-full h-[700px] my-10 hidden">
       <div className="flex gap-5 ">
         <div className="flex flex-col gap-10">
           <div
