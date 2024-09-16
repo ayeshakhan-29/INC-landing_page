@@ -28,16 +28,3 @@ body {
     text-wrap: balance;
   }
 }
-
-.image-container {
-  transition: height 0.3s ease-in-out;
-}
-.image-container.default {
-  height: 182.84px; /* Default size */
-}
-.image-container.hover:hover {
-  height: 182.84px; /* Enlarged size on hover */
-}
-.image-container.default:hover ~ .image-container.hover {
-  height: 73.97px; /* Decrease height of other images when one is hovered */
-}
